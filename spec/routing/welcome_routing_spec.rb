@@ -9,3 +9,4 @@ RSpec.describe WelcomeController, type: :routing do
 		expect(get('/')).to route_to('welcome#index')
 	end
 end
+
