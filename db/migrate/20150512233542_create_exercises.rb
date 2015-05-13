@@ -5,6 +5,7 @@ class CreateExercises < ActiveRecord::Migration
       t.integer :cals_per_time
 
       t.timestamps null: false
+      t.belongs_to :workout
     end
   end
 end

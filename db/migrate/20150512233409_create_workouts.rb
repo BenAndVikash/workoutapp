@@ -6,6 +6,7 @@ class CreateWorkouts < ActiveRecord::Migration
       t.integer :duration
 
       t.timestamps null: false
+      t.belongs_to :owner
     end
   end
 end
